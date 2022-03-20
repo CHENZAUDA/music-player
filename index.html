@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f5fda5fd7a.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>MUSIC PLAYER</h1>
+    <div class="music-container">
+        <div class="music-info">
+            <h4 id="title">Music</h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+
+
+        <audio src="music/name.mp3" id="audio"></audio>
+        <div class="img-container">
+            <img id="disk" src="img/flashLight.jpg" alt="">
+        </div>
+        <div class="nav">
+            <button id="prev" class="actionBtn">
+                <i class="fas fa-backward"></i> </button>
+            <button id="play" class="actionBtn actionBtnBig">
+                <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="actionBtn">
+                <i class="fas fa-forward"></i> </button>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
